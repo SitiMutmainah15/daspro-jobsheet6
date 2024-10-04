@@ -6,7 +6,7 @@ public class Pemilihan2Percobaan221 {
 
         String member, jenisPembayaran;
         int jumlahBeli, pilihanMenu;
-        double diskon, totalBayar, harga, totalBayarQRIS;
+        double diskon, totalBayar, harga;
 
         System.out.println("-----------------------");
         System.out.println("==== MENU KAFE JTI ====");
@@ -19,6 +19,7 @@ public class Pemilihan2Percobaan221 {
 
         pilihanMenu = input21.nextInt();
         input21.nextLine();
+
         System.out.print("Apakah punya member (y/n) ? = ");
         member = input21.nextLine();
         System.out.print("Apakah bayar pakai QRIS(y/n) ? = ");
