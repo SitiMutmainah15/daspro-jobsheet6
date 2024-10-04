@@ -5,15 +5,14 @@ public class Flowchart6 {
         Scanner input21 = new Scanner(System.in);
 
         String jenisBuku;
-        int jumlahBuku;
-        final int harga = 20000;
+        int jumlahBuku, harga = 20000;
         double hargaTotal, diskon = 0.0, totalDiskon, hargaBayar;
 
         System.out.println("-----------------------");
         System.out.println("==== TOKO BUKU PASTA ====");
         System.out.println("-----------------------");
 
-        System.out.print("Masukkan Jenis Buku (kamus/novel/buku lain): ");
+        System.out.print("Masukkan Jenis Buku: ");
         jenisBuku = input21.nextLine();
         System.out.print("Masukkan Jumlah Buku: ");
         jumlahBuku = input21.nextInt();
